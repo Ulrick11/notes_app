@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 70;
+}
+.NotesApp {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+
+  margin: 20 auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.Inputs {
+  margin-bottom: 40px;
+}
+
+.Inputs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.Inputs input[type="text"].inputContent {
+  height: 70px; 
+}
+
+.Inputs input:focus {
+  outline: none;
+  border-color: #606973;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5d6976;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b5a6a;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .NotesApp {
+    padding: 10px;
+  }
+
+  .Inputs input,
+  button {
+    width: 100%;
+  }
+}
+.h2{
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  color: #4b5a6a;
+  
+}
